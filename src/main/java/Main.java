@@ -1,16 +1,15 @@
-import java.util.HashMap;
 import java.util.Map;
-
+import java.util.HashMap;
 import ru.netology.geo.GeoService;
 import ru.netology.geo.GeoServiceImpl;
-import ru.netology.i18n.LocalizationService;
-import ru.netology.i18n.LocalizationServiceImpl;
 import ru.netology.sender.MessageSender;
+import ru.netology.i18n.LocalizationService;
 import ru.netology.sender.MessageSenderImpl;
+import ru.netology.i18n.LocalizationServiceImpl;
 
 public class Main {
 
-        //Тестовый пример
+        // Тестовый пример
         public static void main(String[] args) {
             GeoService geoService = new GeoServiceImpl();
             LocalizationService localizationService = new LocalizationServiceImpl();
